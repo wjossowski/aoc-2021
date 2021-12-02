@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "lib": ["es2021"],
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "sourceMap": true,
+    "declaration": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true
+  },
+  "paths": {
+    "*": ["./src/*"]
+  },
+  "exclude": ["node_modules", "dist"],
+  "include": ["./src/**/*.ts"],
+  "rules": {
+    "curly": [true, "ignore-same-line"]
+  }
+}
